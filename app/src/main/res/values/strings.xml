@@ -1,0 +1,67 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string name="app_name">BuscaCEP</string>
+    <string name="subtitulo">Consulte endereços pelo CEP ou pelo nome da rua</string>
+
+    <string name="modo_cep">Por CEP</string>
+    <string name="modo_endereco">Por endereço</string>
+
+    <string name="hint_cep">CEP (ex.: 01001-000)</string>
+    <string name="hint_uf">Estado (UF)</string>
+    <string name="hint_cidade">Cidade</string>
+    <string name="hint_logradouro">Rua / logradouro</string>
+    <string name="buscar">Buscar</string>
+    <string name="buscando">Buscando…</string>
+
+    <!-- Validação de entrada -->
+    <string name="erro_cep_formato">Digite um CEP válido com 8 números.</string>
+    <string name="erro_uf">Selecione um estado válido.</string>
+    <string name="erro_minimo_3">Digite pelo menos 3 caracteres.</string>
+
+    <!-- Erros de comunicação -->
+    <string name="erro_cep_nao_encontrado">CEP não encontrado. Confira o número digitado.</string>
+    <string name="erro_nenhum_resultado">Nenhum endereço encontrado para essa busca.</string>
+    <string name="erro_requisicao_invalida">A busca enviada é inválida. Revise os dados informados.</string>
+    <string name="erro_servico_indisponivel">O serviço ViaCEP está indisponível no momento. Tente novamente mais tarde.</string>
+    <string name="erro_resposta_inesperada">O serviço respondeu de forma inesperada. Tente novamente.</string>
+    <string name="erro_resposta_invalida">Resposta inválida do serviço. Tente novamente.</string>
+    <string name="erro_tempo_esgotado">A conexão demorou demais para responder. Tente novamente.</string>
+    <string name="erro_sem_conexao">Sem conexão com a internet. Verifique sua rede e tente novamente.</string>
+    <string name="erro_inesperado">Ocorreu um erro inesperado. Tente novamente.</string>
+    <string name="erro_sem_app_mapa">Nenhum aplicativo de mapas encontrado.</string>
+
+    <!-- Lista -->
+    <string name="titulo_resultados">Resultados</string>
+    <plurals name="resultados_encontrados">
+        <item quantity="one">%d endereço encontrado</item>
+        <item quantity="other">%d endereços encontrados</item>
+    </plurals>
+    <string name="sem_logradouro">(sem logradouro)</string>
+    <string name="cep_formato">CEP %s</string>
+
+    <!-- Detalhes -->
+    <string name="titulo_detalhes">Detalhes do endereço</string>
+    <string name="rotulo_logradouro">Logradouro</string>
+    <string name="rotulo_complemento">Complemento</string>
+    <string name="rotulo_bairro">Bairro</string>
+    <string name="rotulo_cidade">Cidade</string>
+    <string name="rotulo_estado">Estado</string>
+    <string name="rotulo_regiao">Região</string>
+    <string name="rotulo_ddd">DDD</string>
+    <string name="rotulo_ibge">Código IBGE</string>
+    <string name="nao_informado">—</string>
+    <string name="copiar_cep">Copiar CEP</string>
+    <string name="compartilhar">Compartilhar</string>
+    <string name="abrir_mapa">Abrir no mapa</string>
+    <string name="msg_cep_copiado">CEP copiado para a área de transferência.</string>
+    <string name="voltar">Voltar</string>
+
+    <string-array name="ufs">
+        <item>AC</item><item>AL</item><item>AP</item><item>AM</item><item>BA</item>
+        <item>CE</item><item>DF</item><item>ES</item><item>GO</item><item>MA</item>
+        <item>MT</item><item>MS</item><item>MG</item><item>PA</item><item>PB</item>
+        <item>PR</item><item>PE</item><item>PI</item><item>RJ</item><item>RN</item>
+        <item>RS</item><item>RO</item><item>RR</item><item>SC</item><item>SP</item>
+        <item>SE</item><item>TO</item>
+    </string-array>
+</resources>
